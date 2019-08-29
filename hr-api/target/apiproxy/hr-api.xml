@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="2" name="HR-API">
+<?xml version="1.0" encoding="UTF-8"?><APIProxy name="HR-API" revision="15">
     <Basepaths>/hr</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
-    <CreatedAt>1567027381842</CreatedAt>
-    <CreatedBy>chishiuan.lu@ftr.com</CreatedBy>
+    <CreatedAt>1562271590046</CreatedAt>
+    <CreatedBy>onlineman477@gmail.com</CreatedBy>
     <Description>SILENTSHADOW$ git: e148adec SilentShadow</Description>
     <DisplayName>hr-api</DisplayName>
-    <LastModifiedAt>1567027381842</LastModifiedAt>
-    <LastModifiedBy>chishiuan.lu@ftr.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:1361e4197cd36422219405c2bb65caca69a0da3cfc97d86125031ce6e49c6413f0e590b97e46345ee0ca8f2193a879aeef50b20e80d95a5f200eb5241d89c01a</ManifestVersion>
+    <LastModifiedAt>1562687096831</LastModifiedAt>
+    <LastModifiedBy>onlineman477@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:5a8b8e393941bd33f9de90bb8e2e959dd0af84369ee4247b06c9ccf814cda7c3a7a1fdab47e8f28e91e851894df59de30e0485f813b034ff05c3832210241939</ManifestVersion>
     <Policies>
         <Policy>AM-CustomErrorResponse</Policy>
         <Policy>AM-PrivateKey</Policy>
@@ -21,7 +20,6 @@
         <Policy>JTP-Too-Long-String</Policy>
         <Policy>Key-Value-Map-Operations-Credentials</Policy>
         <Policy>OAuth-Verify</Policy>
-        <Policy>OAuth-v20-1</Policy>
         <Policy>REP-Checking-JSON-Payload</Policy>
         <Policy>RF-Invalid-UserID</Policy>
         <Policy>RF-Missing-Phone-Number</Policy>
@@ -34,7 +32,7 @@
     <Resources>
         <Resource>jsc://Logging-User-Setting-ID.js</Resource>
     </Resources>
-    <Spec></Spec>
+    <Spec/>
     <TargetServers/>
     <TargetEndpoints>
         <TargetEndpoint>default</TargetEndpoint>

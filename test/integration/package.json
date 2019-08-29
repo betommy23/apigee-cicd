@@ -8,9 +8,9 @@
         "type": "git",
         "url": "https://github.com/apickli/apickli.git"
     },
-"scripts": {
-    "test": "cucumber-js -f json:reports.json"
-  },
+    "scripts": {
+        "test": "cucumber-js -f json:reports.json"
+    },
     "keywords": [
         "cucumber.js",
         "integration",
